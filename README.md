@@ -44,8 +44,8 @@ This project was designed and coded by Rinshad.
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/soda-mask-effect.git
-cd soda-mask-effect
+git clone https://github.com/md-rinshad/soft-drinks
+
 
 
 2. Open index.html in your browser (no server required).
