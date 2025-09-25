@@ -95,13 +95,17 @@ header .author img {
 
 /* Soda mask */
 .soda {
-  --left: 0px;
-  background: var(--url) var(--left);
+--left: 0px;
+  background:
+     var(--url) var(--left),
+     url(mockup.png) 0 0;
   background-size: auto 100%;
-  width: 100%;
+  width: 280px;
   aspect-ratio: 2 / 4;
   background-blend-mode: multiply;
   transition: 0.8s;
+  mask-image: url(mockup.png);
+  mask-size: auto 100%;
 
   /* Chrome / Safari */
   -webkit-mask-image: url("mockup.png");
@@ -352,4 +356,5 @@ header .author img {
     .banner .content h1{
         font-size: 5em;
     }
+
 }
